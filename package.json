@@ -1,0 +1,21 @@
+{
+  "name": "palestra",
+  "version": "1.0.0",
+  "description": "Palestra nas Talks internas da H4",
+  "main": "hapiServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon hapiServer.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^16.6.2",
+    "hapi-auth-jwt2": "^7.3.0",
+    "hapi-swagger": "^8.0.0",
+    "inert": "^4.2.1",
+    "jsonwebtoken": "^8.1.0",
+    "nodemon": "^1.12.1",
+    "vision": "^4.1.1"
+  }
+}
